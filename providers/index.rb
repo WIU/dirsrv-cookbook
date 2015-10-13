@@ -30,6 +30,8 @@ action :create do
   attrs.push('eq') if new_resource.equality
   attrs.push('pres') if new_resource.presence
   attrs.push('sub') if new_resource.substring
+  attrs.push('approx') if new_resource.approximate
+
 
   # Index is per database backend
   idxattrs = {
