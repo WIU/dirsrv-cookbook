@@ -103,6 +103,7 @@ database | Name of the underlying BDB database | String | 'userRoot'
 equality | Will this index be used to compare string equality? | Boolean | false
 presence | Will this index be used to compare string presence? | Boolean | false
 substring | Will this index be used to perform substring matches? | Boolean | false
+approximate | Will this index be used to perform approximate matches? | Boolean | false
 
 __ACTIONS__
 * __create__
